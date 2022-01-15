@@ -1,10 +1,10 @@
 import MainMenu from './Menu';
-import FormComponent from './FormComponent';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import DataContext from '../data/DataContext';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
 
@@ -44,7 +44,7 @@ function App() {
           <Row>
             <Col>
               <Routes>
-                <Route path="/" element={<FormComponent/>}/>
+                <Route path="/" element={<Page1/>}/>
                 <Route path="/page2" element={<Page2/>}/>
                 <Route path="/page3" element={<Page3/>}/>
               </Routes>
