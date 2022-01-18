@@ -1,7 +1,10 @@
-const Page2 = () => {
+import React from 'react'
+
+export default function Page2() {
   return (
-    <h1>Page2</h1>
-  ) 
+    <div>
+      <h1>Page2</h1>
+    </div>
+  )
 }
 
-export default Page2;

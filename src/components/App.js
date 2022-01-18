@@ -26,7 +26,7 @@ function App() {
         <Container>
           <Row>
             <Col lg="12"><h1>{title}</h1></Col>
-            <Col lg="12"><MainMenu textOfA="aa" menus={arrMenu}/></Col>
+            <Col lg="12"><MainMenu textOfA={"aa"} menus={arrMenu}/></Col>
             {/* <Col>
               <ul>
                 <li>
